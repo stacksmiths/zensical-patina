@@ -14,7 +14,15 @@ icon: lucide/waves
 
 </div>
 
-!!! note
+Unofficial theme. Not affiliated with the Zensical project.
 
-    Install with `pip install zensical-patina` then set
-    `name = "patina"` in `zensical.toml`.
+Install with `pip install zensical-patina`, then set `name = "patina"`
+in `zensical.toml`.
+
+```toml
+[project.theme]
+name = "patina"
+```
+
+Toggle light, dark, or system from the header. Cyan is the primary;
+amber is the hero accent.
