@@ -1,0 +1,23 @@
+[project]
+site_name = "Patina"
+site_url = "https://example.com/"
+
+nav = [
+  { "Overview" = "index.md" },
+]
+
+[project.theme]
+name = "patina"
+language = "en"
+features = [
+  "content.code.copy",
+  "navigation.footer",
+  "navigation.top",
+  "search.highlight",
+]
+
+[project.markdown_extensions]
+admonition = {}
+attr_list = {}
+md_in_html = {}
+toc.permalink = true
