@@ -1,9 +1,12 @@
 [project]
 site_name = "Patina"
-site_url = "https://example.com/"
+site_url = "https://stacksmiths.github.io/zensical-patina/"
+repo_url = "https://github.com/stacksmiths/zensical-patina"
+repo_name = "stacksmiths/zensical-patina"
 
 nav = [
   { "Overview" = "index.md" },
+  { "Usage" = "usage.md" },
 ]
 
 [project.theme]
@@ -20,4 +23,6 @@ features = [
 admonition = {}
 attr_list = {}
 md_in_html = {}
+pymdownx.highlight = {}
+pymdownx.superfences = {}
 toc.permalink = true
